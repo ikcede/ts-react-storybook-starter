@@ -7,6 +7,24 @@ React component libraries.
 - Uses Jest for tests
 - Includes sample Storybook setup
 
+## Getting Started
+
+Once you've cloned the repo, run the following commands to
+force all packages to the latest versions before installing:
+
+```sh
+npx npm-check-updates -u
+npm install
+```
+
+Now you can open up a dev server with:
+
+```sh
+npm start
+```
+
+Have fun coding!
+
 ## Deploying Storybook to Github Pages
 
 Uncomment the lines in `.github/workflows/deploy.yaml` to deploy

@@ -1,4 +1,3 @@
-
 import SampleComponent, { SampleComponentProps } from './SampleComponent';
 
 export { SampleComponent };
