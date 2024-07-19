@@ -6,6 +6,7 @@ React component libraries.
 - Uses Vite for example builds + Storybook
 - Uses Jest for tests
 - Includes sample Storybook setup
+- Includes deployment workflows for either Github Packages or NPM
 
 ## Getting Started
 
