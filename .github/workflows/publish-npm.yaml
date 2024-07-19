@@ -21,7 +21,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # This adds authentication for the Github registry
+      # This adds authentication for the NPM registry
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
