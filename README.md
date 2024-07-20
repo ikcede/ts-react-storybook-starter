@@ -51,18 +51,18 @@ account and set it on the repository:
 3. Go to your repository's Settings > Secrets and variables > Actions page and add a new Repository Secret
 4. Make sure the name of the secret in the workflow matches
 
-## Available Scripts
+## Local Development
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 **Note**: This runs the App files in example/ as the dev environment.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `npm test`
@@ -71,8 +71,7 @@ Runs tests in Jest
 
 ### `npm run build`
 
-Builds the example for production to the `example/build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Using `vite-build.config.ts`, compiles and exports the TS library into `dist/main.js` and `dist/main.d.ts`.
 
 ### `npm run storybook`
 
