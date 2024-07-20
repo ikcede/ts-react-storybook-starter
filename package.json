@@ -1,5 +1,6 @@
 {
   "name": "ts-react-storybook-starter",
+  "description": "A Typescript React project",
   "version": "1.0.0",
   "repository": "git@github.com:USER_NAME/ts-react-storybook-starter",
   "author": "USER_NAME <https://github.com/USER_NAME>",
@@ -10,6 +11,7 @@
   "files": [
     "dist"
   ],
+  "keywords": [],
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build --config vite-build.config.ts",
