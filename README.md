@@ -7,6 +7,7 @@ React component libraries.
 - Uses Jest for tests
 - Includes sample Storybook setup
 - Includes deployment workflows for either Github Packages or NPM
+- Uses prettier for formatting
 
 ## Getting Started
 
