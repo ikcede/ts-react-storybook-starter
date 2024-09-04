@@ -1,9 +1,9 @@
-import { Meta, StoryObj } from "@storybook/react"
+import { Meta, StoryObj } from '@storybook/react';
 
-import { SampleComponent } from "../components"
+import { SampleComponent } from '../components';
 
 const meta = {
-  title: "Components/SampleComponent",
+  title: 'Components/SampleComponent',
   component: SampleComponent,
   parameters: {
     layout: 'centered',

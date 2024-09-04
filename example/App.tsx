@@ -4,7 +4,7 @@ import { SampleComponent } from '../src/components';
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <SampleComponent></SampleComponent>
     </div>
   );

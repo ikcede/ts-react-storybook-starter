@@ -1,7 +1,6 @@
 # Typescript React Storybook Starter
 
-A template repository for quickly getting started with creating
-React component libraries.
+A template repository for quickly getting started with creating React component libraries.
 
 - Uses Vite for example builds + Storybook
 - Uses Jest for tests
@@ -11,8 +10,7 @@ React component libraries.
 
 ## Getting Started
 
-Once you've cloned the repo, run the following commands to
-force all packages to the latest versions before installing:
+Once you've cloned the repo, run the following commands to force all packages to the latest versions before installing:
 
 ```sh
 npx npm-check-updates -u
@@ -29,23 +27,17 @@ Have fun coding!
 
 ## Deploying Storybook to Github Pages
 
-Uncomment the lines in `.github/workflows/deploy.yaml` to deploy
-a Storybook instance to Github Pages. You will also need to enable
-Github Pages for your repository in the Settings tab.
+Uncomment the lines in `.github/workflows/deploy.yaml` to deploy a Storybook instance to Github Pages. You will also need to enable Github Pages for your repository in the Settings tab.
 
 ## Publishing Packages
 
-You can choose to publish your package to either
-[Github's Package Repository](https://github.com/features/packages)
-or [NPM](https://www.npmjs.com/).
+You can choose to publish your package to either [Github's Package Repository](https://github.com/features/packages) or [NPM](https://www.npmjs.com/).
 
 ### Publishing to NPM
 
-To publish to NPM, you can use the `.github/workflows/publish-npm.yaml`
-workflow, which will automatically publish a package on a new release.
+To publish to NPM, you can use the `.github/workflows/publish-npm.yaml` workflow, which will automatically publish a package on a new release.
 
-Additionally, you'll need to create an automation token on your NPM
-account and set it on the repository:
+Additionally, you'll need to create an automation token on your NPM account and set it on the repository:
 
 1. Navigate to the Access Tokens page of your NPM account and generate a new classic token
 2. Make sure the token is set to Automation
@@ -58,13 +50,11 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 **Note**: This runs the App files in example/ as the dev environment.
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+The page will reload if you make edits. You will also see any lint errors in the console.
 
 ### `npm test`
 
@@ -81,4 +71,3 @@ Starts up a Storybook server on [http://localhost:6006](http://localhost:6006)
 ### `npm run build-storybook`
 
 Builds a static web app version of Storybook to `/storybook-static`
-
