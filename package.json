@@ -28,13 +28,7 @@
     ]
   },
   "dependencies": {
-    "@types/jest": "^29.5.12",
-    "@types/node": "^22.5.3",
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
-    "ts-jest": "^29.2.5",
-    "typescript": "^5.5.4",
     "vite": "^5.4.3",
     "vite-tsconfig-paths": "^5.0.1"
   },
@@ -45,10 +39,16 @@
     "@storybook/react": "^8.2.9",
     "@storybook/react-vite": "^8.2.9",
     "@storybook/test": "^8.2.9",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.5.3",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "ts-jest": "^29.2.5",
     "eslint-plugin-storybook": "^0.8.0",
     "prettier": "3.3.3",
     "storybook": "^8.2.9",
-    "vite-plugin-dts": "^4.1.0"
+    "vite-plugin-dts": "^4.1.0",
+    "typescript": "^5.5.4"
   },
   "peerDependencies": {
     "react": "^18.3.1",
