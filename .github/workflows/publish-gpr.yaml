@@ -18,6 +18,7 @@ name: Publish on the Github Package Repository
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 jobs:
   publish-gpr:
